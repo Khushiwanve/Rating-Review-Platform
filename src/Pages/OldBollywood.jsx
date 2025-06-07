@@ -1,6 +1,7 @@
 import React from 'react';
 import MovieCard from '../Components/MovieCard';
 
+
 const oldMovies = [
   {
     title: "Sholay",
