@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Bollywood from './Pages/Bollywood';
-import OldBollywood from './Pages/oldBollywood'; // ✅ correct case
+import OldBollywood from './Pages/OldBollywood'; // ✅ correct case
 import Login from './Pages/Login';
 import Signup from './Pages/signup';
 import Dashboard from './Pages/Dashboard';
@@ -13,7 +13,7 @@ import ReviewsPage from './Pages/ReviewsPage';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bollywood" element={<Bollywood />} />
